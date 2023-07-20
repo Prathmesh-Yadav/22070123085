@@ -1,0 +1,116 @@
+/*
+PRN 22070123085
+Experiment - 2 
+Data Types
+*/
+
+// DATA TYPES
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int Int = 10;
+    float Float = 10.5;
+    double Double = 10.56;
+    const char* Constant = "Hello World" ;
+    string String = "How are you?";
+    bool Bool = 1;
+    
+    cout<<"Integer value :"<<Int<<endl;
+    cout<<sizeof(Int)<<endl;
+    
+    cout<<"Float Value is :"<<Float<<endl;
+    cout<<sizeof(Float)<<endl;
+    
+    cout<<"Double value :"<<Double<<endl;
+    cout<<sizeof(Double)<<endl;
+    
+    cout<<"Char is :"<<Constant<<endl;
+    cout<<sizeof(Constant)<<endl;
+    
+    cout<<"String value :"<<String<<endl;
+    cout<<sizeof(String)<<endl;
+    
+    cout<<"Bool value :"<<Bool<<endl;
+    cout<<sizeof(Bool)<<endl;
+
+    
+    return 0;
+}
+
+/*
+OUTPUT -
+Integer value :10
+4
+Float Value is :10.5
+4
+Double value :10.56
+8
+Char is :Hello World
+8
+String value :How are you?
+32
+Bool value :1
+1*/
+
+
+//COMPARISON OF TWO NUMBERS
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+
+    cout<<"Enter the first number :"<<endl;
+    cin>>a;
+    
+    cout<<"Enter the second number :"<<endl;
+    cin>>b;
+
+    if(a>b)
+    {
+        cout<<"First number is larger"<<endl;
+    }
+    else if (b>a)
+    {
+        cout<<"Second number is larger"<<endl;
+    }
+    else
+    {
+        cout<<"The numbers are same"<<endl;
+    }
+}
+
+/*
+OUTPUT -
+Enter the first number :
+10
+Enter the second number :
+20
+Second number is larger
+*/
+
+// BOOLEAN COLOUR
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    bool ImageColour=true;
+    if(ImageColour)
+
+    {
+        cout<<"Yes the image is coloured"<<endl;
+    }
+    else
+    {
+        cout<<"Image is black and white"<<endl;
+    }
+    return 0;
+}
+
+/*
+OUTPUT -
+Yes the image is coloured
+*/
