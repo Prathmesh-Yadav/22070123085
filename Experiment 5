@@ -1,0 +1,89 @@
+/*
+PRN 22070123085
+Experiment - 5
+*/
+
+
+// ODD EVEN
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+    
+    cout<<"Enter a number: "<<endl;
+    cin>>a;
+
+    if(a%2 == 0)
+    {
+        cout<<"The entered number is even "<<endl;
+    }
+
+    else
+    {
+        cout<<"The entered number is odd "<<endl;
+    }
+}
+/*
+OUTPUT:
+Enter a number: 
+4
+The entered number is even 
+*/
+
+// LARGEST NUMBER
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    int a,b,c;
+
+    cout<<"Enter the first number: "<<endl;
+    cin>>a;
+
+    cout<<"Enter the second number: "<<endl;
+    cin>>b;
+
+    cout<<"Enter the third number: "<<endl;
+    cin>>c;
+
+    if(a > b)
+    {
+        if(a > c)
+        {
+            printf("First number is the largest!!");
+        }
+
+        else
+        {
+            printf("Third number is the largest!!");
+        }
+    }
+
+    if(b > a)
+    {
+        if(b > c)
+        {
+            printf("Second number is the largest!!");
+        }
+
+        else
+        {
+            printf("Third number is the largest!!");
+        }
+    }
+}
+
+/*
+OUTPUT:
+Enter the first number: 
+20
+Enter the second number: 
+40
+Enter the third number: 
+80
+Third number is the largest!!
+*/
