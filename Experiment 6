@@ -1,0 +1,72 @@
+/*
+PRN 22070123085
+Experiment - 6
+Calculator using switch case
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    int a,b;
+    int calc;
+
+    cout<<"Enter the first number: "<<endl;
+    cin>>a;
+
+    cout<<"Enter the second number: "<<endl;
+    cin>>b;
+
+    cout<<"Choose which operation you have to perform:"<<endl;
+    cout<<"1.Addition"<<endl;
+    cout<<"2.Subtraction"<<endl;
+    cout<<"3.Multiplication"<<endl;
+    cout<<"4.Division"<<endl;
+
+    cin>>calc;
+
+    switch(calc)
+    {
+        case 1:
+        {
+            cout<<"Answer is: "<<a+b<<endl;
+            break;
+        }
+
+        case 2:
+        {
+            cout<<"Answer is: "<<a-b<<endl;
+            break;
+        }
+
+        case 3:
+        {
+            cout<<"Answer is: "<<a*b<<endl;
+            break;
+        }
+
+        case 4:
+        {
+            cout<<"Answer is: "<<a/b<<endl;
+            break;
+        }
+
+    }
+}
+
+/*
+OUTPUT: 
+Enter the first number: 
+40
+Enter the second number: 
+20
+Choose which operation you have to perform:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+4
+Answer is: 2
+*/
